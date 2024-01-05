@@ -25,16 +25,12 @@ The tarballs for `PETSc_jll.jl` have been built from these sources:
 The following JLL packages are required by `PETSc_jll.jl`:
 
 * `CompilerSupportLibraries_jll`
-* `METIS_jll`
 * `MPICH_jll`
 * `MPIPreferences`
 * `MPItrampoline_jll`
 * `MicrosoftMPI_jll`
 * `OpenBLAS32_jll`
 * `OpenMPI_jll`
-* `PARMETIS_jll`
-* `SCALAPACK32_jll`
-* `SCOTCH_jll`
 
 ## Products
 
