@@ -17,14 +17,13 @@ The tarballs for `PETSc_jll.jl` have been built from these sources:
 
 `PETSc_jll.jl` is available for the following platforms:
 
-* `Linux x86_64 {libc=glibc, libgfortran_version=5.0.0, mpi=mpich}` (`x86_64-linux-gnu-libgfortran5-mpi+mpich`)
+* `Linux x86_64 {libc=glibc, libgfortran_version=4.0.0, mpi=mpich}` (`x86_64-linux-gnu-libgfortran4-mpi+mpich`)
 
 ## Dependencies
 
 The following JLL packages are required by `PETSc_jll.jl`:
 
 * `CompilerSupportLibraries_jll`
-* `HDF5_jll`
 * `METIS_jll`
 * `MPICH_jll`
 * `MPIPreferences`
@@ -37,8 +36,6 @@ The following JLL packages are required by `PETSc_jll.jl`:
 * `SCALAPACK32_jll`
 * `SCOTCH_jll`
 * `SuperLU_DIST_jll`
-* `TetGen_jll`
-* `Triangle_jll`
 
 ## Products
 
