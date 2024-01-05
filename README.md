@@ -29,7 +29,6 @@ The following JLL packages are required by `PETSc_jll.jl`:
 * `MPIPreferences`
 * `MPItrampoline_jll`
 * `MicrosoftMPI_jll`
-* `OpenBLAS32_jll`
 * `OpenMPI_jll`
 
 ## Products
