@@ -33,6 +33,7 @@ The following JLL packages are required by `PETSc_jll.jl`:
 * `MicrosoftMPI_jll`
 * `OpenBLAS32_jll`
 * `OpenMPI_jll`
+* `OpenSSL_jll`
 * `PARMETIS_jll`
 * `SCALAPACK32_jll`
 * `SCOTCH_jll`
