@@ -29,11 +29,13 @@ The following JLL packages are required by `PETSc_jll.jl`:
 * `MPICH_jll`
 * `MPIPreferences`
 * `MPItrampoline_jll`
+* `MUMPS_jll`
 * `OpenBLAS32_jll`
 * `OpenMPI_jll`
 * `PARMETIS_jll`
 * `SCALAPACK32_jll`
 * `SCOTCH_jll`
+* `SuiteSparse_jll`
 
 ## Products
 
