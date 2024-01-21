@@ -36,7 +36,6 @@ The following JLL packages are required by `PETSc_jll.jl`:
 * `PARMETIS_jll`
 * `SCALAPACK32_jll`
 * `SCOTCH_jll`
-* `SuiteSparse_jll`
 * `SuperLU_DIST_jll`
 
 ## Products
