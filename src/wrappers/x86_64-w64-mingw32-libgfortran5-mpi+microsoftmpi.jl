@@ -10,6 +10,7 @@ using SCALAPACK32_jll
 using METIS_jll
 using SCOTCH_jll
 using PARMETIS_jll
+using MicrosoftMPI_jll
 JLLWrappers.@generate_wrapper_header("PETSc")
 JLLWrappers.@declare_library_product(libpetsc, "libpetsc_double_real_Int64-3.18.6.dll")
 JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64, "libpetsc_double_real_Int64-3.18.6.dll")
@@ -17,7 +18,7 @@ JLLWrappers.@declare_executable_product(ex19)
 JLLWrappers.@declare_executable_product(ex4)
 JLLWrappers.@declare_executable_product(ex42)
 function __init__()
-    JLLWrappers.@generate_init_header(OpenBLAS32_jll, CompilerSupportLibraries_jll, SuperLU_DIST_jll, SuiteSparse_jll, MUMPS_jll, SCALAPACK32_jll, METIS_jll, SCOTCH_jll, PARMETIS_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(OpenBLAS32_jll, CompilerSupportLibraries_jll, SuperLU_DIST_jll, SuiteSparse_jll, MUMPS_jll, SCALAPACK32_jll, METIS_jll, SCOTCH_jll, PARMETIS_jll, MicrosoftMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libpetsc,
         "bin\\petsc\\double_real_Int64\\lib\\libpetsc_double_real_Int64-3.18.6.dll",
