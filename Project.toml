@@ -21,7 +21,6 @@ MUMPS_jll = "ca64183c-ec4f-5579-95d5-17e128c21291"
 MPItrampoline_jll = "f1f71cc9-e9ae-5b93-9b94-4fe0e1ad3748"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 OpenMPI_jll = "fe0851c0-eecd-5654-98d4-656369965a5c"
-MicrosoftMPI_jll = "9237b28f-5490-5468-be7b-bb81f5f5e6cf"
 
 [compat]
 MPIPreferences = "0.1"
@@ -40,4 +39,3 @@ julia = "1.6"
 MUMPS_jll = "5.5.1"
 MPItrampoline_jll = "5.2.1"
 TOML = "1"
-MicrosoftMPI_jll = "10.1.2 - 10.1.2"
