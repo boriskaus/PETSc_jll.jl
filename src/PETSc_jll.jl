@@ -2,7 +2,6 @@
 baremodule PETSc_jll
 using Base
 using Base: UUID
-using LazyArtifacts
 using MPIPreferences
 Base.include(@__MODULE__, joinpath("..", ".pkg", "platform_augmentation.jl"))
 import JLLWrappers
