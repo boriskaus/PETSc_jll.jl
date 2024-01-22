@@ -42,7 +42,6 @@ The following JLL packages are required by `PETSc_jll.jl`:
 * `SCALAPACK32_jll`
 * `SCOTCH_jll`
 * `SuperLU_DIST_jll`
-* `libblastrampoline_jll`
 
 ## Products
 
