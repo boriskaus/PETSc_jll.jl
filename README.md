@@ -18,13 +18,6 @@ The tarballs for `PETSc_jll.jl` have been built from these sources:
 `PETSc_jll.jl` is available for the following platforms:
 
 * `macOS aarch64 {libgfortran_version=5.0.0, mpi=mpich}` (`aarch64-apple-darwin-libgfortran5-mpi+mpich`)
-* `macOS aarch64 {libgfortran_version=5.0.0, mpi=mpitrampoline}` (`aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline`)
-* `macOS x86_64 {libgfortran_version=4.0.0, mpi=mpich}` (`x86_64-apple-darwin-libgfortran4-mpi+mpich`)
-* `macOS x86_64 {libgfortran_version=5.0.0, mpi=mpich}` (`x86_64-apple-darwin-libgfortran5-mpi+mpich`)
-* `Linux x86_64 {libc=glibc, libgfortran_version=4.0.0, mpi=mpich}` (`x86_64-linux-gnu-libgfortran4-mpi+mpich`)
-* `Linux x86_64 {libc=glibc, libgfortran_version=5.0.0, mpi=mpich}` (`x86_64-linux-gnu-libgfortran5-mpi+mpich`)
-* `Windows x86_64 {libgfortran_version=4.0.0, mpi=microsoftmpi}` (`x86_64-w64-mingw32-libgfortran4-mpi+microsoftmpi`)
-* `Windows x86_64 {libgfortran_version=5.0.0, mpi=microsoftmpi}` (`x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi`)
 
 ## Dependencies
 
@@ -37,6 +30,7 @@ The following JLL packages are required by `PETSc_jll.jl`:
 * `MPItrampoline_jll`
 * `MUMPS_jll`
 * `MicrosoftMPI_jll`
+* `OpenBLAS32_jll`
 * `OpenMPI_jll`
 * `PARMETIS_jll`
 * `SCALAPACK32_jll`
