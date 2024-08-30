@@ -4,6 +4,7 @@ export ex19, ex19_int64_deb, ex4, ex42, libpetsc, libpetsc_Float64_Real_Int64, l
 using OpenBLAS32_jll
 using SCALAPACK32_jll
 using CompilerSupportLibraries_jll
+using HDF5_jll
 using MPICH_jll
 JLLWrappers.@generate_wrapper_header("PETSc")
 JLLWrappers.@declare_library_product(libpetsc, "@rpath/libpetsc_double_real_Int64_double_real_Int64.3.21.dylib")
@@ -14,7 +15,7 @@ JLLWrappers.@declare_executable_product(ex19_int64_deb)
 JLLWrappers.@declare_executable_product(ex4)
 JLLWrappers.@declare_executable_product(ex42)
 function __init__()
-    JLLWrappers.@generate_init_header(OpenBLAS32_jll, SCALAPACK32_jll, CompilerSupportLibraries_jll, MPICH_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(OpenBLAS32_jll, SCALAPACK32_jll, CompilerSupportLibraries_jll, HDF5_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libpetsc,
         "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.3.21.4.dylib",
