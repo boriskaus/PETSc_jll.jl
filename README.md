@@ -25,6 +25,7 @@ The following JLL packages are required by `PETSc_jll.jl`:
 
 * `CompilerSupportLibraries_jll`
 * `MPICH_jll`
+* `MPICH_jll`
 * `MPIPreferences`
 * `MPItrampoline_jll`
 * `MicrosoftMPI_jll`
