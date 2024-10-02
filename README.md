@@ -17,7 +17,7 @@ The tarballs for `PETSc_jll.jl` have been built from these sources:
 
 `PETSc_jll.jl` is available for the following platforms:
 
-* `macOS aarch64 {libgfortran_version=5.0.0, mpi=mpich}` (`aarch64-apple-darwin-libgfortran5-mpi+mpich`)
+* `macOS aarch64 {libgfortran_version=5.0.0, mpi=openmpi}` (`aarch64-apple-darwin-libgfortran5-mpi+openmpi`)
 
 ## Dependencies
 
