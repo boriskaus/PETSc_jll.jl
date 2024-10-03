@@ -10,11 +10,11 @@ os = "macos"
     url = "https://github.com/boriskaus/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-apple-darwin-libgfortran5-mpi+openmpi.tar.gz"
 [[PETSc]]
 arch = "aarch64"
-git-tree-sha1 = "5183cd189a9cb9f5a67814c74d57a12dfd84f193"
+git-tree-sha1 = "a92aff5f1a05fe73f6e311f303de0ba569cb2cd2"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "macos"
 
     [[PETSc.download]]
-    sha256 = "c1d66f461751a2ece441b6ec09487954538b5af1b156251de14058c532c85694"
+    sha256 = "fd1f9ae0664c9e36b8b09eee27402d30d8c5c1fda9c62921e4b40d9e948b79bd"
     url = "https://github.com/boriskaus/PETSc_jll.jl/releases/download/PETSc-v3.22.0+0/PETSc.v3.22.0.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
